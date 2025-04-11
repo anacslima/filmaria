@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+/* Estilos globais */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #f0f0f0; /* Um fundo leve para o body */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ 
+/* Container principal da aplicação */
+.app {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* width: 100%; */ /* Ocupar toda a largura */
+  min-height: 100vh; /* Ocupar toda a altura da tela */
+  align-items: center; /* Centralizar o conteúdo das rotas */
+}
+ 
+/* Estilos de loading genéricos (opcional, mas útil) */
+.loading-container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 50px;
+  font-size: 1.5em;
+  color: #555;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ 
+/* Outros estilos globais que você possa precisar */
